@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen3X4"
+    android:background="@drawable/background3x4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Score:0"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <TextView
+                android:id="@+id/Time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time:"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="26dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageButton
+                android:id="@+id/b2_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageButton
+                android:id="@+id/b2_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:layout_constraintDimensionRatio="w,1:1"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="89dp" />
+
+            <ImageButton
+                android:id="@+id/b2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageButton
+                android:id="@+id/b2_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageButton
+                android:id="@+id/b2_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:layout_constraintDimensionRatio="w,1:1"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="89dp" />
+
+            <ImageButton
+                android:id="@+id/b2_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageButton
+                android:id="@+id/b2_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageButton
+                android:id="@+id/b2_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:layout_constraintDimensionRatio="w,1:1"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="89dp" />
+
+            <ImageButton
+                android:id="@+id/b2_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageButton
+                android:id="@+id/b2_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageButton
+                android:id="@+id/b2_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:layout_constraintDimensionRatio="w,1:1"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="89dp" />
+
+            <ImageButton
+                android:id="@+id/b2_12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mole"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
